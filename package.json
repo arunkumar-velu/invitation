@@ -1,0 +1,16 @@
+{
+  "name": "invitation",
+  "version": "1.0.0",
+  "description": "Marriage invitation",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Arun",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}
