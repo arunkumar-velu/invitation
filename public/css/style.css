@@ -124,11 +124,46 @@ body{
   color: white;
   font-family: 'Oswald', sans-serif;
   font-size: 18px;
-  font-weight: 300;
-  line-height: 3rem;
+  line-height: 1.7;
   height: 500px;
+  padding: 40px;
 }
 
-.train-block .trainMotion img{
+.train-block .container p{
+  margin: 0;
+}
+
+.train-block .container .title{
+  margin: 0;
+}
+.train-block .container .wedding{
+  margin: 30px auto;
+  width: 50%;
+  text-align: center;
+  padding: 30px;
+  background: rgba(236, 236, 236, 0.2);
+  border-radius: 20px;
+}
+.train-block .container .reception1{
+  width: calc(50% - 120px);
+  float: left;
+  margin: 30px 30px;
+  text-align: center;
+  padding: 30px;
+  background: rgba(236, 236, 236, 0.2);
+  border-radius: 20px;
+}
+.train-block .container .reception2{
+  width: calc(50% - 120px);
+  float: right;
+  margin: 30px 30px;
+  text-align: center;
+  padding: 30px;
+  background: rgba(236, 236, 236, 0.2);
+  border-radius: 20px;
+}
+
+/*.train-block .trainMotion img{
   transition: all 0.9s ease-out 0s;
 }
+*/
