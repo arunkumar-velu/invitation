@@ -1,4 +1,4 @@
-body{
+html, body{
   font-family: 'Dancing Script', cursive;
   /*font-family: 'Great Vibes', cursive;
   font-family: 'Bellefair', serif;
@@ -7,6 +7,7 @@ body{
   margin: 0;
   overflow-x: hidden;
 }
+@media (min-width:961px)  { 
 .block{
   width: 100%;
   height: 100%;
@@ -36,7 +37,9 @@ body{
   top: 0;
   left: 50%;
   transform: translate(-50%,0);
-  pointer-events: none
+  pointer-events: none;
+    height: 100%;
+
 }
 .slide-1{
   border-radius: 70px 0;
@@ -168,3 +171,173 @@ body{
   transition: all 0.9s ease-out 0s;
 }
 */
+}
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .block{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.train-block{
+  position: relative;
+  display: block;
+  height: 200px;
+  width: 100%;
+}
+.block .header{
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 40px auto;
+  background: rgb(255,255,255, 0.8);
+  padding-bottom: 20px;
+  font-size: 14px;
+  width: 96%;
+}
+.img-parallax {
+  width: 100vmax;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+  pointer-events: none;
+    height: 100%;
+
+}
+.slide-1{
+  border-radius: 70px 0;
+  padding-top: 22px;
+}
+.slide-1 .content{
+  margin-top: 0;
+  color: rgb(74, 88, 54);
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.slide-1 .content h1{
+  color: rgb(74, 88, 54);
+  font-size: 18px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0 24px;
+}
+.slide-1 .content .names{
+  color: #ca07d4;
+  font-size: 24px;
+}
+@font-face {
+  font-family: 'entypo';
+}
+/*.entypo-heart{
+  animation: beat .25s infinite alternate;
+  transform-origin: center;
+}
+@keyframes beat{
+  to { transform: scale(1.4); }
+}*/
+.entypo-heart:before {
+  content: "\2665";
+}
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  color: #ca07d4;
+}
+
+.caricature-div{
+  width: 100%;
+  text-align: center;
+}
+.caricature-div img{
+  width: 100%;
+  height: 500px;
+  border-radius: 20px;
+  margin-left: -300px
+}
+.invitation-content{
+  font-size: 32px;
+  color: rgb(140, 104, 134);
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+.invitation-content .name{
+  text-align: right;
+}
+.caricature-block{
+  margin: 20px;
+}
+.caricature-block .content-div{
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  background: ghostwhite;
+  padding: 10px 0;
+  margin: 20px 0;
+}
+
+.caricature {
+  display: block;
+  transition: all 0.9s ease-out;
+}
+
+.flower{
+    height: 25%;
+    width: 221px;
+    margin: 16px auto;
+    display: block;
+}
+.flower-bottom{
+      width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+.train-block .container{
+  background-color: #f1646a;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  height: 500px;
+  padding: 40px;
+}
+
+.train-block .container p{
+  margin: 0;
+}
+
+.train-block .container .title{
+  margin: 0;
+}
+.train-block .container .wedding{
+  margin: 30px auto;
+  width: 50%;
+  text-align: center;
+  padding: 30px;
+  background: rgba(236, 236, 236, 0.2);
+  border-radius: 20px;
+}
+.train-block .container .reception1{
+  width: calc(50% - 120px);
+  float: left;
+  margin: 30px 30px;
+  text-align: center;
+  padding: 30px;
+  background: rgba(236, 236, 236, 0.2);
+  border-radius: 20px;
+}
+.train-block .container .reception2{
+  width: calc(50% - 120px);
+  float: right;
+  margin: 30px 30px;
+  text-align: center;
+  padding: 30px;
+  background: rgba(236, 236, 236, 0.2);
+  border-radius: 20px;
+}
+
+}
