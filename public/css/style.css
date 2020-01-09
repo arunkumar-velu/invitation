@@ -55,6 +55,12 @@ html, body{
   color: #ca07d4;
   font-size: 24px;
 }
+.slide-1 .desk-top{
+  display: block;
+}
+.slide-1 .mobile{
+  display: none;
+}
 @font-face {
   font-family: 'entypo';
 }
@@ -185,7 +191,6 @@ html, body{
 .train-block{
   position: relative;
   display: block;
-  height: 200px;
   width: 100%;
 }
 .block .header{
@@ -229,6 +234,14 @@ html, body{
 .slide-1 .content .names{
   color: #ca07d4;
   font-size: 24px;
+}
+.slide-1 .desk-top{
+  display: none;
+}
+.slide-1 .mobile{
+  display: block;
+  width: 100%;
+  margin-top: -25px;
 }
 @font-face {
   font-family: 'entypo';
@@ -302,8 +315,8 @@ html, body{
   font-family: 'Oswald', sans-serif;
   font-size: 18px;
   line-height: 1.7;
-  height: 500px;
-  padding: 40px;
+  min-height: 500px;
+  padding: 40px 20px;
 }
 
 .train-block .container p{
@@ -314,28 +327,26 @@ html, body{
   margin: 0;
 }
 .train-block .container .wedding{
-  margin: 30px auto;
-  width: 50%;
-  text-align: center;
-  padding: 30px;
   background: rgba(236, 236, 236, 0.2);
   border-radius: 20px;
+  margin: 10px auto;
+  width: calc(100% - 20px);
+  text-align: center;
+  padding: 10px;
 }
 .train-block .container .reception1{
-  width: calc(50% - 120px);
-  float: left;
-  margin: 30px 30px;
+  width: calc(100% - 20px);
+  margin: 10px 0px;
   text-align: center;
-  padding: 30px;
+  padding: 10px;
   background: rgba(236, 236, 236, 0.2);
   border-radius: 20px;
 }
 .train-block .container .reception2{
-  width: calc(50% - 120px);
-  float: right;
-  margin: 30px 30px;
+  width: calc(100% - 20px);
+  margin: 10px 0px;
   text-align: center;
-  padding: 30px;
+  padding: 10px;
   background: rgba(236, 236, 236, 0.2);
   border-radius: 20px;
 }
