@@ -190,7 +190,7 @@ html, body{
 .train-block{
   position: relative;
   display: block;
-  width: 100%;
+  width: 90%;
 }
 .block .header{
   position: relative;
