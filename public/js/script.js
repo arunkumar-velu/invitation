@@ -6,10 +6,10 @@ var ele2 = $(".train");
 var total1 = $(window).width();
 $(window).scroll(function (event) {
     current = $(window).scrollTop();
-    if(current <= 315){
+    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if(!isMobile && current <= 315){
       ele1.css({marginLeft:(current-315)+'px'});
     }
-    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     if(isMobile){
       current = current - 1100;
     }

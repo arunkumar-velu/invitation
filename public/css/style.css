@@ -136,6 +136,7 @@ html, body{
   line-height: 1.7;
   height: 500px;
   padding: 40px;
+  font-family: 'Bellefair', serif;
 }
 
 .train-block .container p{
@@ -146,9 +147,10 @@ html, body{
   margin: 0;
 }
 .train-block .container .wedding{
-  margin: 30px auto;
-  width: 50%;
+  margin: 30px 30px;
+  width: calc(50% - 120px);
   text-align: center;
+  float: right;
   padding: 30px;
   background: rgba(236, 236, 236, 0.2);
   border-radius: 20px;
@@ -163,13 +165,13 @@ html, body{
   border-radius: 20px;
 }
 .train-block .container .reception2{
-  width: calc(50% - 120px);
-  float: right;
-  margin: 30px 30px;
+  width: 50%;
+  margin: 30px auto;
   text-align: center;
   padding: 30px;
   background: rgba(236, 236, 236, 0.2);
   border-radius: 20px;
+  clear: both;
 }
 
 /*.train-block .trainMotion img{
