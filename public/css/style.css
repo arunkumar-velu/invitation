@@ -132,6 +132,7 @@ html, body{
 .train-block .container{
   background-color: #f1646a;
   color: white;
+  font-family: 'Oswald', sans-serif;
   font-size: 18px;
   line-height: 1.7;
   height: 500px;
@@ -321,8 +322,6 @@ html, body{
   line-height: 1.7;
   min-height: 500px;
   padding: 40px 20px;
-  font-family: 'Bellefair', serif;
-  
 }
 
 .train-block .container p{
