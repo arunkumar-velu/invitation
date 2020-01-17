@@ -135,7 +135,7 @@ html, body{
   font-family: 'Oswald', sans-serif;
   font-size: 18px;
   line-height: 1.7;
-  height: 500px;
+  height: auto;
   padding: 40px;
   font-family: 'Bellefair', serif;
 }
