@@ -6,6 +6,8 @@
       <link href="https://fonts.googleapis.com/css?family=Bellefair|Josefin+Sans|Pinyon+Script|Dancing+Script|Great+Vibes&display=swap" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="css/entypo.woff">
       <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/progressive-image.js/dist/progressive-image.css">
+      <script src="https://cdn.jsdelivr.net/npm/progressive-image.js/dist/progressive-image.js"></script>
       <script
          src="https://code.jquery.com/jquery-3.4.1.min.js"
          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -14,7 +16,9 @@
    </head>
    <body>
       <div class="block">
-         <img src="images/3.jpg" data-speed="-1" class="img-parallax">
+        <a href="images/3.jpg" class="progressive replace img-parallax">
+          <img src="images/3small.jpg" class="preview" alt="image" />
+        </a>
          <div class="header slide-1  particletext hearts">
             <img src="images/header-dec.svg" class="desk-top">
             <img src="images/header-dec-mobile.svg" class="mobile">

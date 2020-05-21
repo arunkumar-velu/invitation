@@ -32,7 +32,7 @@ html, body{
 .img-parallax {
   width: 100vmax;
   z-index: -1;
-  position: absolute;
+  position: absolute !important;
   top: 0;
   left: 50%;
   transform: translate(-50%,0);
