@@ -209,13 +209,17 @@ html, body{
 .img-parallax {
   width: 100vmax;
   z-index: -1;
-  position: absolute;
+  position: absolute !important;
   top: 0;
   left: 50%;
   transform: translate(-50%,0);
   pointer-events: none;
-    height: 100%;
+  height: 100%;
+  min-height: 357px;
 
+}
+.img-parallax img{
+  height: 100% !important;
 }
 .slide-1{
   border-radius: 70px 0;
